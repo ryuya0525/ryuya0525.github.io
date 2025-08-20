@@ -1704,7 +1704,7 @@ Media Queries
         grid-template-columns: 1fr;
     }
 
-    .mouse-cursor {
+    .mouse-cursor, .default-cursor-dot {
         display: none;
     }
 }
