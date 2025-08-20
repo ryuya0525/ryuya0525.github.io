@@ -3,7 +3,12 @@ Base & Reset
 ========================= */
 * {
     box-sizing: border-box;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family:
+        system-ui, -apple-system, BlinkMacSystemFont,
+        'Segoe UI', 'Roboto', 'Helvetica Neue',
+        'Yu Gothic UI', 'Yu Gothic',
+        'Hiragino Sans', 'Hiragino Kaku Gothic ProN',
+        sans-serif;
     cursor: none;
     margin: 0;
     padding: 0;
@@ -1623,7 +1628,7 @@ Media Queries
 
     .timeline-item:nth-child(odd),
     .timeline-item:nth-child(even) {
-        padding-left: 80px;
+        padding-left: 65px;
         padding-right: 0;
         text-align: left;
     }
@@ -1697,6 +1702,14 @@ Media Queries
 
     .profile {
         grid-template-columns: 1fr;
+    }
+
+    .cursor-dot {
+        display: none;
+    }
+    
+    .cursor-outline {
+        display: none;
     }
 }
 
