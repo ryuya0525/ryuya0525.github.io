@@ -18,6 +18,7 @@ CSS Variables
 :root {
     --bg-color: #CAE9FA;
     --text-color: #333333;
+    --text-color2: #333333;
     --card-bg: #ffffff;
     --shadow-color: rgba(0, 0, 0, 0.1);
     --bg-stroke: rgba(255, 255, 255, 0.1);
@@ -30,6 +31,7 @@ CSS Variables
 .dark-mode {
     --bg-color: #0a0a0a;
     --text-color: #ffffff;
+    --text-color2: #aaaaaa;
     --card-bg: #1a1a1a;
     --shadow-color: rgba(0, 0, 0, 0.3);
     --bg-storoke: rgba(255, 255, 255, 0.1);
@@ -920,7 +922,7 @@ Skills
 }
 
 .skill-desc {
-    color: #aaa;
+    color: var(--text-color2);
     line-height: 1.6;
     text-align: left;
 }
@@ -1179,7 +1181,7 @@ Timeline
 }
 
 .timeline-desc {
-    color: var(--text-color);
+    color: var(--text-color2);
     line-height: 1.6;
     text-align: left;
 }
