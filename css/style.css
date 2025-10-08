@@ -434,7 +434,7 @@ Glitch Title
 }
 
 .glitch-title::before {
-    left: 0.125rem;
+    right: -0.125rem;
     text-shadow: -0.0625rem 0 var(--accent-color);
     clip: rect(2.75rem, 28.125rem, 3.5rem, 0);
     animation: glitch-anim 5s infinite linear alternate-reverse;
